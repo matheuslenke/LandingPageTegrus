@@ -5,7 +5,12 @@
   <!-- Link para importar .css do Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+  <!-- Font awesome -->
+  <script src="https://kit.fontawesome.com/38db456b98.js" crossorigin="anonymous"></script>
+  </head>
   <!-- Meta tags necessárias -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,12 +23,11 @@
 
 </head>
 
-<body style="font-family: 'Raleway'">
-  <header>
-    <!-- Navbar content -->
-    <div class="container sticky-top">
-      <nav class="navbar navbar-expand-lg navbar-light bg-white" role="navigation">
-        <img src="/src/logoTegrus.png" alt="Logo da Tegrus" class="navbar-brand">
+<body>
+ 
+    <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" role="navigation">
+        <img src="/img/logoTegrus.png" alt="Logo da Tegrus" class="navbar-brand">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -52,20 +56,90 @@
             </li>
           </ul>
           <button type="button" class="btn btn-dark">Lorem ipsum</button>
-
-        </div>
       </nav>
-  </header>
 
-  <div class="container-fluid">
-      <div class="row">
-          <div class="col-xs-12">
-            <div class="background-fullscreen">
-              <p class="justify-content-center align-items-center">Hello world</p>
-            </div>
+  <!-- Header -->
+  <header class="background">
+      <div class="container d-flex h-100">
+        <div class="intro-text justify-content-center align-self-center">
+         <div class="row align-content-center">
+           <h1 class="display-4 text-uppercase">Really Interesting title for Landings</h1>
+         </div> 
+         <row class="align-self-center">
+           <p>Home is behind, the world ahead and there are many paths to tread through shadows to the edge. Frodo, where is my precious?</p>
+         </row>
+          <div class="intro-heading text-uppercase justify-content-center"></div>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+        </div>
+      </div>
+    </header>
+
+
+    
+     <!-- Section 1 -->
+  <section class="page-section p-5" id="section1">
+      <div class="container p-3">
+        <div class="row">
+          <div class="col-lg-6 offset-3 text-center">
+            <h2 class="section-heading pb-5 font-weight-bold">This is an cta section with large title</h2>
           </div>
-      </div>  
-  </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-3">
+            <span class="fa-stack fa-4x">
+                <i class="circle-icon md-light material-icons md-48">
+                    perm_identity
+                </i>
+            </span>
+            <h4 class="service-heading">Feature title</h4>
+            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+          </div>
+          <div class="col-md-3">
+              <span class="fa-stack fa-4x">
+                  <i class="circle-icon md-light material-icons md-48">
+                      perm_identity
+                  </i>
+              </span>
+            <h4 class="service-heading">Feature title</h4>
+            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+          </div>
+          <div class="col-md-3">
+            <span class="fa-stack fa-4x">
+                <i class="circle-icon md-light material-icons md-48">
+                    perm_identity
+                </i>
+            </span>
+            <h4 class="service-heading">Feature title</h4>
+            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+          </div>
+          <div class="col-md-3">
+              <span class="fa-stack fa-4x">
+                  <i class="circle-icon md-light material-icons md-48">
+                      perm_identity
+                  </i>
+              </span>
+              <h4 class="service-heading">Feature title</h4>
+              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            </div>
+        </div>
+      </div>
+    </section>
+  
+         <!-- Section 2 -->
+  <section class="page-section background-blue p-5" id="section2">
+      <div class="container p-3">
+        <div class="row">
+          <div class="col-lg-6 offset-3 text-center">
+            <h2 class="section-heading font-weight-bold">This is an cta section with large title</h2>
+            <h3 class="section-subheading text-muted p-3">Home is behind, the world agead and there are many paths to tread through shadows to the edge, world ahead and there are</h3>
+              <button type="button" class="btn button-darkblue pt-3 font-weight-bold">Lorem ipsum</button>
+            <p class="p-3"> ghost action</p>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+  
 
   <main class="p-3" wm-link-destino></main>
 

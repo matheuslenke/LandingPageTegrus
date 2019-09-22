@@ -3,13 +3,74 @@
     padding: 0;
 } */
 
-.background-fullscreen {
+body {
+    font-family:'Raleway';
+}
+header.background {
     height: 100vh;
     width: 100vw;
+    text-align: center;
     background-image: url(https://via.placeholder.com/1920x1080);
-    background-size: auto;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
     /* vw = viewport width */
     /* vh = viewport height */
+}
+
+header.background .intro-text {
+  }
+  
+header.background .intro-text .intro-lead-in {
+font-size: 1rem;
+font-style: italic;
+margin-bottom: 25px;
+font-family: 'Raleway';
+}
+
+header.background .intro-text .intro-heading {
+font-size: 3rem;
+font-weight: 700;
+margin-bottom: 25px;
+font-family: 'Raleway';
+}
+
+
+.pag
+@media (min-width: 768px) {
+section {
+    padding: 150px 0;
+}
+}
+
+  /* Material styling */
+  /* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+/* Icon circle */
+.circle-icon {
+    background: #9AB0BD;
+    padding:30px;
+    border-radius: 50%;
+    }
+
+.background-blue {
+    background-color: #9AB0BD;
+}
+.button-darkblue {
+ background-color: #0F3D56;
+ color: white;
+ font-family: 'Roboto';
+ font-weight: 400;
 }
