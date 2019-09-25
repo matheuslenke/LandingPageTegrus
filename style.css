@@ -86,6 +86,10 @@ section {
 footer.footer {
     background-color: black;
 }
+
+#facebook {
+    size:9rem;
+}
   /* Material styling */
   /* Rules for sizing the icon. */
 .material-icons.md-18 { font-size: 18px; }
