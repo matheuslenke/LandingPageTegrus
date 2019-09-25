@@ -78,23 +78,17 @@ font-family: 'Raleway';
     color: #9AB0BD;
 }
 .section-heading {
-    
+    color: #0F3D56;
+    font-size: 50px;
 }
 .section-subheading {
     color: #565555;
     font-size: 1.2rem;
 }
-.pag
-@media (min-width: 768px) {
-section {
-    padding: 150px 0;
-}
+.short-title {
+    font-size: 40px;
 }
 
-* {
-    margin:0;
-    padding:0;
-}
 .vertical-line {
     width: 1px; /* Line width */
       background-color: rgb(184, 179, 179); /* Line color */
@@ -104,12 +98,7 @@ section {
         if this fits better with your design */
 }
 
-@media (max-width:768px) {
-    div.vertical-line {
-        display:none;
-        width: 0px;
-    }
-}
+
 
 footer.footer {
     background-color: black;
@@ -170,4 +159,23 @@ footer.footer {
      margin: 0;
      font-size: 10vw;    
      }   
+ }
+@media (max-width: 767px) {
+    .section-heading {
+        color: #0F3D56;
+        font-size: 30px;
+    }
+    div.vertical-line {
+        display:none;
+        width: 0px;
+    }
+    .short-title {
+        font-size: 20px;
+    }
+}
+ @media (min-width: 768px) {
+    section {
+        padding: 150px 0;
+    }
+
  }
