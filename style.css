@@ -1,7 +1,9 @@
-/* * {
-    margin: 0;
-    padding: 0;
-} */
+ h1, h2, h3, h4, h5, h6 {
+     font-family: 'Raleway';
+ }
+ p, a {
+     font-family: 'Roboto';
+ }
 
 header.background {
     height: 100vh;
@@ -34,8 +36,11 @@ font-family: 'Raleway';
 }
 
 #title-text {
-    color: #FCB001;
+    color: transparent;
     text-shadow: 2px 2px #000000;
+    font-size: 4.5rem;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #FCB001;
 }
 .subtitle-text {
     color: white;
@@ -50,14 +55,9 @@ font-family: 'Raleway';
     height:100%;
   
   }
-.raleway {
-    font-family: 'Raleway';
+.gray-text {
+    color: #b7b5b5;
 }
-
-.roboto {
-    font-family: 'Roboto';
-}
-
 .rounded-button {
     border-radius: 10px;
 }
@@ -76,6 +76,13 @@ font-family: 'Raleway';
 }
 .paragraph {
     color: #9AB0BD;
+}
+.section-heading {
+    
+}
+.section-subheading {
+    color: #565555;
+    font-size: 1.2rem;
 }
 .pag
 @media (min-width: 768px) {
@@ -106,6 +113,7 @@ section {
 
 footer.footer {
     background-color: black;
+    border-top: 20px solid #0F3D56;
 }
 
   /* Material styling */
@@ -135,8 +143,26 @@ footer.footer {
 .button-darkblue {
  background-color: #0F3D56;
  color: white;
+ padding: 15px 50px !important;
  font-family: 'Roboto';
  font-weight: 400;
+}
+.button-darkblue:hover{
+ text-decoration: none;
+ color: rgb(146, 136, 136);
+ padding: 15px 50px !important;
+ font-family: 'Roboto';
+ font-weight: 400;
+}
+.ghost-action {
+    color: #3d3b3b;
+}
+.ghost-action:hover {
+    color: #615d5d;
+    text-decoration:none;
+}
+#section3 {
+    padding: 100px 0 100px 0;
 }
 
 @media (max-width: 425px) {
