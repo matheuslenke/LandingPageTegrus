@@ -8,7 +8,7 @@
   <!-- Google fonts -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
         rel="stylesheet">
-  <!-- Font awesome -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto&display=swap" rel="stylesheet">  <!-- Font awesome -->
   <script src="https://kit.fontawesome.com/38db456b98.js" crossorigin="anonymous"></script>
   </head>
   <!-- Meta tags necessárias -->
@@ -59,16 +59,20 @@
       </nav>
  
   <!-- Header -->
-  <header class="background">
-      <div class="container h-100 d-flex">
-        <div class="row align-self-center">
-          <div class="col-12 border d-flex flex-column text-center">
-              <h1 class="raleway font-weight-bold text-uppercase">Really Interesting title for Landings</h1>
-              <p>Home is behind, the world ahead and there are many paths to tread through shadows to the edge. Frodo, where is my precious?</p>
-              <a class="btn btn-primary rounded-button btn-xl text-uppercase js-scroll-trigger" href="#tellmemore">Tell Me More</a>
-          </div> 
+  <header class="background container-fluid">  
+    <div class="color-overlay"></div>    
+        <div class="row h-100 align-self-center no-gutters">
+          <div class="col-md-3 col-1">
+          </div>
+          <div class="col-10 col-md-6 text-center align-self-center">
+              <h1 class="raleway font-weight-bold text-uppercase" id="title-text">Really Interesting title for Landings</h1>
+              <p class="roboto subtitle-text">Home is behind, the world ahead and there are many paths to tread through shadows to the edge. Frodo, where is my precious?</p>
+              <a class="btn btn-warning font-weight-bold rounded-button btn-xl text-uppercase roboto mx-3" href="#tellmemore">Tell Me More</a>
+              <a class="btn btn-outline-light font-weight-bold rounded-button btn-xl text-uppercase roboto" href="#tellmemore">Tell Me More</a>
+          </div>
+          <div class="col-md-3 col-1">
+          </div>
         </div>
-      </div>
     </header>
 
 
@@ -180,7 +184,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-6 col-12 align-self-center text-center">
-            <h3 class="service-heading font-weight-bold">Short title</h4>
+            <h3 class="service-heading font-weight-bold p-3">Short title</h4>
             <h5 class="text-muted raleway h5-1">Lorem ipsum dolor sit amet.</h5>
             <p class="roboto muted-text paragraph">There are many paths to tread through shadows to the edge.</p>
           </div>
@@ -199,7 +203,7 @@
             <img src="https://via.placeholder.com/1024x768" alt="Placeholder" class="img-fluid">
           </div>
           <div class="col-md-6 col-12 align-self-center text-center">
-            <h3 class="service-heading font-weight-bold">Short title</h4>
+            <h3 class="service-heading font-weight-bold p-3">Short title</h4>
             <h5 class="text-muted raleway h5-1">Lorem ipsum dolor sit amet.</h5>
             <p class="roboto muted-text paragraph">There are many paths to tread through shadows to the edge.</p>
           </div>
@@ -220,7 +224,7 @@
             <a href="#" class="Roboto text-light px-4">Link 2 </a>
             <a href="#" class="Roboto text-light px-4">Link 3 </a>
           </div>
-          <div class="col-md-4 col-12 align-self-center">
+          <div class="col-md-4 col-12 align-self-center p-3">
             <div class="align-items-center d-flex justify-content-center">
               <i class="fab fa-facebook text-light fa-2x" id="facebook"></i>
               <span class="fa-stack">
